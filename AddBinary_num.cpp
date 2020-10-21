@@ -1,11 +1,11 @@
-#include <iostream>
-#include <stack>
+#include<iostream>
+#include<stack>
 using namespace std;
 stack<int> read()
 {
-    char a[50];
+    char a[40];
     stack<int> s;
-    cout<<"\n Enter a Binary Number: ";
+    cout<<"\n Enter a binary number: ";
     cin>>a;
     for(int i=0;a[i]!='\0';i++)
     {
